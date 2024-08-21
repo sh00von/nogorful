@@ -1,19 +1,15 @@
-import Head from 'next/head';
 import JoinUs from '../components/JoinUs';
 import PageHeader from '../components/PageHeader';
-
+import SEO from '../components/SEO';
 const Contact = () => {
   return (
     <>
-      <Head>
-        <title>Contact Us - Halpes</title>
-        <meta name="description" content="Get in touch with Halpes. We welcome inquiries from our valued customers. Reach out to us via phone, email, or visit our office." />
-        <meta name="keywords" content="contact, Halpes, customer service, contact us, email, phone" />
-        <meta property="og:title" content="Contact Us - Halpes" />
-        <meta property="og:description" content="Get in touch with Halpes. We welcome inquiries from our valued customers. Reach out to us via phone, email, or visit our office." />
-        <meta property="og:image" content="https://yourwebsite.com/logo.png" />
-        <meta property="og:url" content="https://yourwebsite.com/contact" />
-      </Head>
+<SEO
+  title="Contact - Nogorful"
+  description="Enhancing the lives of underprivileged and street children to become the 'Nogorful' (Flower of City)."
+  keywords="organization, mission, initiatives, community involvement"
+  image="https://nogorful.org/assets/images/nf/logo.jpg"
+/>
 
 
       <PageHeader title="Contact Us" breadcrumb="Contact" />

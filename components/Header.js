@@ -1,14 +1,23 @@
 import { headerData } from '../data/dataStore';
+import Image from 'next/image';
 
 const Header = () => {
   return (
     <>
       <header className="main-header clearfix">
-        <div className="main-header__logo">
-          <a href="index.html">
-            <img src={headerData.logoSrc} alt="Logo" />
-          </a>
-        </div>
+      <div className="main-header__logo">
+  <a href="/">
+    <Image
+      src={headerData.logoSrc}
+      alt="Logo"
+      width={50}  // replace with your desired width
+      height={50} // replace with your desired height
+      style={{ marginRight: '10px' }} // space between image and text
+    />
+    <h2 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold', color: '#222' }}>NOGORFUL</h2>
+  </a>
+</div>
+
         <div className="main-menu-wrapper">
           <div className="main-menu-wrapper__top">
             <div className="main-menu-wrapper__top-inner">
@@ -100,11 +109,11 @@ const Header = () => {
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@packageName__.com">needhelp@halpes.com</a>
+                    <a href="mailto:needhelp@packageName__.com">nogorful@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:01904-446951">01904-446951</a>
                 </li>
             </ul>
             <div class="mobile-nav__top">

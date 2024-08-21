@@ -1,13 +1,13 @@
 // components/News.js
 import React from 'react';
-import { newsData } from '../data/dataStore'; // Adjust the path if necessary
+import { newsData } from '../data/news'; // Adjust the path if necessary
 import NewsItem from './NewsItem';
 
 const News = () => {
   return (
     <section className="news-two">
       <div className="news-two-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-           style={{ backgroundImage: 'url(/assets/images/backgrounds/news-two-bg.jpg)' }}>
+           style={{ backgroundImage: 'url(/assets/images/nf/cc.jpg)' }}>
       </div>
       <div className="news-two-bg-overlay"></div>
       <div className="container">

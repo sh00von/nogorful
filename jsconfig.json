@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // This sets the base directory for module resolution
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"] // Adjust this based on your project's folder structure
     }
   }
 }

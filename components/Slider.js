@@ -8,11 +8,11 @@ SwiperCore.use([Pagination, Navigation, Autoplay, EffectFade]);
 
 const slides = [
   {
-    image: '/assets/images/backgrounds/main-slider-2-1.jpg',
+    image: '/assets/images/nf/bg1.jpg',
     content: {
       text: 'Help is Our Goal',
       heading: 'Building a city of flowers.',
-      buttonText: 'Learn More',
+      buttonText: 'Join Us',
       buttonLink: '#'
     }
   }

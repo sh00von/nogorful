@@ -6,7 +6,7 @@ const PageHeader = ({ title, breadcrumb }) => {
     <section className="page-header">
       <div className="page-header__bg">
         <Image
-          src="/assets/images/backgrounds/page-header-bg-1-1.jpg" // Path to your background image
+          src="/assets/images/nf/bb.jpg" // Path to your background image
           alt="Page Header Background" // Alternative text for the image
           layout="fill" // Covers the entire background area
           objectFit="cover" // Ensures the image covers the area without distortion

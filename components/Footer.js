@@ -4,7 +4,7 @@ import { footerData } from '../data/dataStore'; // Adjust the path if necessary
 
 const Footer = () => {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" style={{padding:20}}>
       <div className="site-footer-bg"></div>
       <div className="container">
         <div className="site-footer__top">
@@ -36,30 +36,6 @@ const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="site-footer__bottom">
-          <div className="row">
-            <div className="col-xl-12">
-              <div className="site-footer__bottom-inner">
-                <div className="site-footer__bottom-logo-social">
-                  <div className="site-footer__bottom-logo">
-                    <a href="index.html">
-                      <img src={footerData.logo} alt="Footer Logo" />
-                    </a>
-                  </div>
-                  <div className="site-footer__bottom-social">
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-facebook-square"></i></a>
-                    <a href="#"><i className="fab fa-dribbble"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-                <div className="site-footer__bottom-copy-right">
-                  <p>{footerData.copyRight}</p>
-                </div>
               </div>
             </div>
           </div>

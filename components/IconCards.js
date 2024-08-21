@@ -13,7 +13,7 @@ const Card = () => {
                                 <div className="four-icon__img">
                                     {/* Use next/image for optimized image */}
                                     <Image
-                                        src={item.image} // Path to your image
+                                        src="https://placehold.co/270x336/000000/000000.png" // Path to your image
                                         alt={item.title} // Description of the image
                                         layout="responsive" // Adjust based on your needs
                                         width={400} // Provide a width (adjust as needed)
