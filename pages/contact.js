@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="section-title__tagline">Contact With Us</span>
-            <h2 className="section-title__title">We Love to Hear From Our <br /> Happy Customers</h2>
+            <h2 className="section-title__title">We Love to Hear From Our <br /> Happy People</h2>
           </div>
           <div className="row">
             <div className="col-xl-6 col-lg-6">
@@ -35,7 +35,7 @@ const Contact = () => {
                       </div>
                       <div className="text">
                         <p>Call Anytime</p>
-                        <a href="tel:+929668880000" aria-label="Call Halpes">92 666 888 0000</a>
+                        <a href="tel:+929668880000" aria-label="Call Halpes">01904-446951</a>
                       </div>
                     </li>
                     <li>
@@ -44,7 +44,7 @@ const Contact = () => {
                       </div>
                       <div className="text">
                         <p>Send Email</p>
-                        <a href="mailto:needhelp@company.com" aria-label="Send an email to Halpes">needhelp@company.com</a>
+                        <a href="mailto:needhelp@company.com" aria-label="Send an email to Halpes">nogorful@gmail.com</a>
                       </div>
                     </li>
                     <li>
@@ -53,7 +53,7 @@ const Contact = () => {
                       </div>
                       <div className="text">
                         <p>Visit Office</p>
-                        <h5>80 Brooklyn Golden Street</h5>
+                        <h5>Chittagong, Bangladesh</h5>
                       </div>
                     </li>
                   </ul>
