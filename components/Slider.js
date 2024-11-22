@@ -61,7 +61,6 @@ const MainSlider = () => {
           </SwiperSlide>
         ))}
         {/* If we need pagination */}
-0
       </Swiper>
     </section>
   );
