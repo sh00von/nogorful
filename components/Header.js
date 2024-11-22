@@ -5,18 +5,41 @@ const Header = () => {
   return (
     <>
       <header className="main-header clearfix">
-      <div className="main-header__logo">
-  <a href="/">
+      <div 
+  className="main-header__logo" 
+  style={{
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center', 
+    textAlign: 'center', 
+  }}
+>
+  <a 
+    href="/" 
+    style={{
+      display: 'flex', 
+      alignItems: 'center', 
+      textDecoration: 'none',
+    }}
+  >
     <Image
       src={headerData.logoSrc}
       alt="Logo"
-      width={50}  // replace with your desired width
+      width={50} // replace with your desired width
       height={50} // replace with your desired height
       style={{ marginRight: '10px' }} // space between image and text
     />
-    <h2 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold', color: '#222' }}>NOGORFUL</h2>
+    <h2 style={{
+      margin: 0,
+      fontSize: '1.5rem',
+      fontWeight: 'bold',
+      color: '#222'
+    }}>
+      NOGORFUL
+    </h2>
   </a>
 </div>
+
 
         <div className="main-menu-wrapper">
           <div className="main-menu-wrapper__top">
@@ -48,8 +71,22 @@ const Header = () => {
           <div className="main-menu-wrapper__bottom">
             <nav className="main-menu">
               <div className="main-menu__inner">
-                <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
-                <ul className="main-menu__list">
+              <a 
+  href="#" 
+  className="mobile-nav__toggler" 
+  style={{
+    display: "flex", 
+    justifyContent: "center", 
+    alignItems: "center", 
+    position: "absolute", 
+    top: "50%", 
+    left: "50%", 
+    transform: "translate(-50%, -50%)"
+  }}
+>
+  <i className="fa fa-bars"></i>
+</a>
+<ul className="main-menu__list">
                   {headerData.menuItems.map((item, index) => (
                     <li className={item.dropdown ? 'dropdown' : ''} key={index}>
                       <a href={item.href}>{item.title}</a>
