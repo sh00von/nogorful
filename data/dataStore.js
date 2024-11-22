@@ -160,7 +160,7 @@ export const footerData = {
   copyRight: '© Copyright 2024 by Nogorful .'
 };
 export const headerData = {
-  logoSrc: '/assets/images/nf/logo.jpg',
+  logoSrc: '/assets/images/nf/logo-removebg-preview.png',
   welcomeMessage: 'Dreams for Street Children',
   email: 'nogorful@gmail.com',
   socialLinks: [

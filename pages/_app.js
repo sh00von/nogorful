@@ -49,6 +49,7 @@ function MyApp({ Component, pageProps }) {
         <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.carousel.min.css" />
         <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.theme.default.min.css" />
         <link rel="stylesheet" href="/assets/css/halpes.css" />
+        <link rel="stylesheet" href="/assets/css/masonary.css" />
         <link rel="stylesheet" href="/assets/css/halpes-responsive.css" />
       </Head>
       <Layout>

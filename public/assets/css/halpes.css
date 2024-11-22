@@ -14,7 +14,19 @@
 # Client Carousel
 --------------------------------------------------------------*/
 
-
+/* Default: Hide the button on larger screens */
+/* Default: Hide the button on larger screens */
+.mobile-nav__toggler {
+    display: none !important;
+  }
+  
+  /* Show the button on smaller screens (e.g., devices with max-width of 768px) */
+  @media (max-width: 768px) {
+    .mobile-nav__toggler {
+      display: flex !important; /* Make it visible */
+    }
+  }
+  
 /*--------------------------------------------------------------
 # Common
 --------------------------------------------------------------*/

@@ -1,0 +1,43 @@
+/* Styles for the gallery container */
+.gallery-page__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width */
+    gap: 20px; /* Adjust the gap between items */
+    margin: 20px;
+  }
+  
+  /* Styles for individual gallery item */
+  .gallery-page__single {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-page__img-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .gallery-page__hover-content-box {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .gallery-page__hover-content-box h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .gallery-page__hover-content-box p {
+    font-size: 1rem;
+    margin: 5px 0 0;
+  }
+  
