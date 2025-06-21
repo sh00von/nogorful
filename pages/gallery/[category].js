@@ -16,7 +16,7 @@ const GalleryPage = ({ events, category }) => {
   return (
     <>
       <SEO
-        title={`Gallery - ${capitalizedCategory} Events - Nogorful`}
+        title={`Gallery - ${capitalizedCategory} - Nogorful`}
         description={`Explore highlights from our ${capitalizedCategory} events and activities. Discover photos and stories from our community events.`}
         keywords={`gallery, Nogorful, ${capitalizedCategory}, events, activities`}
         image="/assets/images/default-gallery-image.png"
@@ -27,7 +27,7 @@ const GalleryPage = ({ events, category }) => {
       <section className="gallery-page">
         <div className="container">
           <div className="section-title text-center">
-            <h2 className="section-title__title">{capitalizedCategory} Events</h2>
+            <h2 className="section-title__title">{capitalizedCategory}</h2>
             <p className="section-title__tagline">Explore highlights from our {capitalizedCategory} events and activities</p>
           </div>
           <div className="row">

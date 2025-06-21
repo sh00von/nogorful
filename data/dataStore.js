@@ -183,8 +183,8 @@ export const headerData = {
 // Function to generate dynamic menu items
 function generateMenuItems() {
   // Example data, replace with your actual data
-  const categories = ['Eid Event', 'Winter Event', 'Others'];
-  const projects = ['Holiday School','Self-Reliant Project','Culture Project','OCOD Project', 'SDR Project','School Team','Health and Nutrition Project'];
+  const categories = ['Eid Event', 'Winter Event','Social Responsibilty', 'Others'];
+  const projects = ['Holiday School','Self-Reliant','Culture Project','OCOD', 'SDR Project','School Team','Health and Nutrition Project'];
   const branches = ['Agrabad', 'sholoshohor', 'CRB', 'Cantonment', 'DC Hill', 'Patiya', 'Cumilla'];
 
   return [

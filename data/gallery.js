@@ -9,6 +9,11 @@ export const events = [
     imageSrc: `/gallery/winter/${i + 1}.JPG`,
     title: 'Eid Event',
     category: 'Eid Event'
+  })),
+  ...Array.from({ length: 12 }, (_, i) => ({
+    imageSrc: `/gallery/social/${i + 1}.jpg`,
+    title: 'Social Event',
+    category: 'Social Responsibilty'
   }))
 ];
 

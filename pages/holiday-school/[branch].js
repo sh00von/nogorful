@@ -53,7 +53,7 @@ const VolunteerPage = ({ volunteers, branch, branchSummary }) => {
         keywords={`volunteers, Nogorful, ${capitalizedBranch}, community support, volunteer contributions`}
         image={bannerUrl || '/assets/images/default-volunteer-image.png'}
       />
-      <PageHeader title={`${capitalizedBranch}`} breadcrumb="Volunteers" />
+      <PageHeader title={`${capitalizedBranch}`} breadcrumb="Holiday School" />
       <section className="team-one team-page">
         <div className="container">
           <div className="section-title text-center">
@@ -61,7 +61,6 @@ const VolunteerPage = ({ volunteers, branch, branchSummary }) => {
             <p className="section-title__tagline">Dedicated individuals who help us achieve our mission</p>
           </div>
           <div className="p-4" style={{padding:'1.5rem 0', margin:'0 0 2rem 0'}}>
-            <h3 style={{fontWeight:'normal', marginBottom:'0.7rem', color:'#b07d2c', fontFamily:'Comic Sans MS, Comic Sans, cursive'}}>{capitalizedBranch} Branch</h3>
             <p className="mb-3" style={{textAlign:'justify', margin:'0', padding:'0', fontWeight:'normal'}}>{branchSummary || 'No summary available for this branch yet.'}</p>
           </div>
           <div className="row">
