@@ -15,7 +15,7 @@ const VolunteerPage = ({ volunteers, branch, branchSummary }) => {
   return (
     <>
       <SEO
-        title={`Volunteers - ${capitalizedBranch} - Nogorful`}
+        title={`${capitalizedBranch} Branch - Nogorful`}
         description={`Meet our dedicated volunteers from the ${capitalizedBranch} branch. Learn about their roles, contributions, and how they help us achieve our mission.`}
         keywords={`volunteers, Nogorful, ${capitalizedBranch}, community support, volunteer contributions`}
         image="/assets/images/default-volunteer-image.png"
