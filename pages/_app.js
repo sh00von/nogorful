@@ -55,24 +55,24 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         {loading ? <Spinner /> : <Component {...pageProps} />}
       </Layout>
-      <Script src="/assets/vendors/jquery/jquery-3.5.1.min.js" />
-      <Script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" />
-      <Script src="/assets/vendors/jarallax/jarallax.min.js" />
-      <Script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js" />
-      <Script src="/assets/vendors/jquery-appear/jquery.appear.min.js" />
-      <Script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js" />
-      <Script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js" />
-      <Script src="/assets/vendors/jquery-validate/jquery.validate.min.js" />
-      <Script src="/assets/vendors/nouislider/nouislider.min.js" />
-      <Script src="/assets/vendors/odometer/odometer.min.js" />
-      <Script src="/assets/vendors/swiper/swiper.min.js" />
-      <Script src="/assets/vendors/tiny-slider/tiny-slider.min.js" />
-      <Script src="/assets/vendors/wnumb/wNumb.min.js" />
-      <Script src="/assets/vendors/wow/wow.js" />
-      <Script src="/assets/vendors/countdown/countdown.min.js" />
-      <Script src="/assets/vendors/owl-carousel/owl.carousel.min.js" />
+      <Script src="/assets/vendors/jquery/jquery-3.5.1.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jarallax/jarallax.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jquery-appear/jquery.appear.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/jquery-validate/jquery.validate.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/nouislider/nouislider.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/odometer/odometer.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/swiper/swiper.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/tiny-slider/tiny-slider.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/wnumb/wNumb.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/wow/wow.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/countdown/countdown.min.js" strategy="afterInteractive" />
+      <Script src="/assets/vendors/owl-carousel/owl.carousel.min.js" strategy="afterInteractive" />
       {/* template js */}
-      <Script src="/assets/js/halpes.js" />
+      <Script src="/assets/js/halpes.js" strategy="afterInteractive" />
     </>
   );
 }

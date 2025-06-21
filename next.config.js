@@ -2,7 +2,7 @@
 
 module.exports = {
     images: {
-      domains: ['placehold.co'],
+      domains: ['placehold.co','ydcxayvyplpmbxncqnqn.supabase.co'],
     },
   };
   

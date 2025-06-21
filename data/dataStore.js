@@ -89,7 +89,7 @@ export const infoData = {
     },
     {
       title: "OCOD",
-      description: "Nogorful’s One Child One Donor project supports underprivileged children’s education with financial aid.",
+      description: "Nogorful's One Child One Donor project supports underprivileged children's education with financial aid.",
       iconClass: "icon-water",
       backgroundImage: 'assets/images/nf/aa.jpg'
     },
@@ -185,7 +185,7 @@ function generateMenuItems() {
   // Example data, replace with your actual data
   const categories = ['Eid Event', 'Winter Event', 'Others'];
   const projects = ['Holiday School','Self-Reliant Project','Culture Project','OCOD Project', 'SDR Project','School Team','Health and Nutrition Project'];
-  const branches = ['Agrabad', 'SholoShohor', 'CRB', 'Cantonment', 'DC Hill', 'Patiya', 'Cumilla'];
+  const branches = ['Agrabad', 'sholoshohor', 'CRB', 'Cantonment', 'DC Hill', 'Patiya', 'Cumilla'];
 
   return [
     { title: 'Home', href: '/' },
@@ -221,3 +221,6 @@ function generateMenuItems() {
 function capitalize(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+// Branches array for use in other modules
+export const branches = ['Agrabad', 'sholoshohor', 'CRB', 'Cantonment', 'DC Hill', 'Patiya', 'Cumilla'];
